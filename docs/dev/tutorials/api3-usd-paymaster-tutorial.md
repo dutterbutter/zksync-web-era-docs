@@ -56,7 +56,7 @@ $ yarn add -D @matterlabs/zksync-contracts @openzeppelin/contracts @openzeppelin
 
 For the sake of simplicity, we will use a modified OpenZeppelin ERC20 implementation. For that, we are going to code a basic ERC20 token `mockUSDC` which will be used to pay for the transactions.
 
-1. Create a new contract `mockUSDC.sol` under `/contracts` directory and add the following code:
+1. Within the `/contracts` directory, create a new file named `mockUSDC.sol`:
 
 ```solidity
 // SPDX-License-Identifier: UNLICENSED
